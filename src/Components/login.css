@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f6f5f7;
+    background-image: url('https://algorand-devloper-portal-app.b-cdn.net/static/Posts/2020/03/23%2018:55/022320-lock.jpg?w=2220&cmd=resize_then_crop&height=1018&quality=70');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    /* background-color: #e9e9f2; */
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+                0 10px 10px rgba(0, 0, 0, 0.22);
+    padding: 40px; /* Padding for the container */
+    width: 400px; /* Set a fixed width */
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Consistent font size */
+}
+
+button {
+    border-radius: 20px;
+    border: none; /* Removed border */
+    font-size: 14px; /* Slightly larger font size */
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width: 100%; /* Full width for the button */
+    margin-top: 15px; /* Spacing above button */
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px; /* Spacing for the text */
+}
+
+a {
+    color: #FF4B2B; /* Link color */
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    margin: 10px 0;
+}

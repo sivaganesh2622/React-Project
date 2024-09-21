@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f8ff; /* Light background color */
+}
+
+.header {
+    background-color: #007bff; /* Bootstrap primary color */
+    padding: 10px;
+    border-radius: 5px;
+}
+h1{
+    color: black;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    background-color: #343a40; /* Dark background for card text */
+    color: white; /* White text color */
+    padding: 20px;
+    border-radius: 5px;
+}
+.header {
+    position: fixed; /* Fix the position of the header */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    z-index: 1000; /* Make sure it appears above other content */
+}
+
+.signout-button {
+    background-color: #FF4B2B; /* Customize your button color */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Smaller padding for a smaller button */
+    font-size: 14px; /* Smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signout-button:hover {
+    background-color: #FF416C; /* Change color on hover */
+}
+
+.container {
+    padding-top: 60px; /* Ensure content is below the fixed button */
+}

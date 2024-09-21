@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f6f5f7;
+    background-image: url('https://algorand-devloper-portal-app.b-cdn.net/static/Posts/2020/03/23%2018:55/022320-lock.jpg?w=2220&cmd=resize_then_crop&height=1018&quality=70');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    /* background-color: #161de3; */
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+                0 10px 10px rgba(0, 0, 0, 0.22);
+    padding: 40px; /* Padding for the container */
+    width: 400px; /* Set a fixed width */
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Consistent font size */
+}
